@@ -42,22 +42,10 @@ nav {
     background-color: #767676;
 }
 
-#aboutme-left{
-    width: 30%;
-    margin-left: 0;
-    margin-top: 50px;
-    margin-bottom: 0;
-    position: fixed;
-    height: 50%;
-}
-
-#aboutme-right{
-    width: 70%;
-    margin-left: 30%;
-    margin-top: 50px;
-    margin-bottom: 0;
-    position: fixed;
-    height: 50%;
+hr {
+    margin-top: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 
 .header{
@@ -67,20 +55,61 @@ nav {
     text-align: left;
     color: #767676;
     line-height: 0px;
-    margin-top: 90px;
-
+    margin-top: 130px;
+    margin-left: 50px;
 }
 
-#pfp {
-    width: 80%;
-    margin: 10% 10%;
-}
-
-#aboutmetext {
+.text {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     color: #767676;
-    margin-top: 50px;
+    margin-top: 10px;
     line-height: 36px;
-    margin-right: 10%;
+    margin-left: 50px;
+}
+
+#contactform {
+    height: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #43C9ED;
+    margin: 30px 50px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+input[type=submit] {
+    background-color: #767676;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #4c4c4c;
 }

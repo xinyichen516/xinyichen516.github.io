@@ -6,15 +6,32 @@
 	<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Meddon|Open+Sans:400,600,800" rel="stylesheet">
 </head>
 <body>
-	<div id="topbar">
+	<nav>
 		<ul>
 		  <li><a href="index.html">Home</a></li>
-		  <li><a href="aboutMe.html">About Me</a></li>
+		  <li><a href="aboutme.html">About Me</a></li>
 		  <li><a href="resume.html">Resume</a></li>
 		  <li><a class="active" href="contact.html">Contact Me</a></li>
 		  <li><a href="blog.html">Blog</a></li>
 		</ul>
+	</nav>
+	<div class="header">Contact Us</div>
+	<hr>
+	<div class="text">
+		To contact me, please refer to my LinkedIn, which can be accessed by clicking 
+		<a href="https://www.linkedin.com/in/xinyichen516/" style="text-decoration:none; color: #767676;">here</a>, email me at xinyichen@berkeley.edu, or use the form below:
 	</div>
+	<div id="contactform">
+	    <label for="name">Your Name</label>
+	    <input type="text" name="name" placeholder="Please Type Your Name">
 
+	    <label for="email">Your Email</label>
+	    <input type="text" id="email" name="email" placeholder="Please Type Your Email">
+
+	    <label for="message">Your Message</label>
+    	<textarea id="message" name="message" placeholder="Please Type Your Message" style="height:300px"></textarea>
+
+    	<input type="submit" value="Submit">
+		</div>
 </body>
 </html>
