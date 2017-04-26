@@ -42,23 +42,32 @@ nav {
     background-color: #767676;
 }
 
+.box {
+	width: 32%;
+	display: inline-block;
+}
+
+.box img {
+	margin-left: 45%;
+	margin-right: 45%;
+}
+
 #foodicon{
 	width: auto;
-	height: 50px;
-	float: left;
+	height:50px;
+	align-content: center;
 }
 
 #thoughtbubble{
 	width: auto;
 	height: 50px;
-	margin-left: 30%;
-	margin-right: 30%;
+	align-content: center;
 }
 
 #listicon {
 	width: auto;
 	height: 50px;
-	float: right;
+	align-content: center;
 }
 
 #content-left{
@@ -106,7 +115,7 @@ nav {
 }
 
 #hometextright{
-	margin-top: 45%;
+	margin-top: 40%;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 132px;
@@ -117,9 +126,10 @@ nav {
 }
 
 .icons {
-	margin-left: 30%;
-	margin-right: 30%;
+	width: 69%;
 	position: relative;
+	margin-right: 15%;
+	margin-left: 15%;
 }
 
 #clicker { 
@@ -142,7 +152,7 @@ nav {
 	font-family: 'Meddon', cursive;
 	font-size: 72px;
 	text-align: center;
-	margin-bottom: 60px;
+	margin-bottom: 80px;
 	color: #767676;
 	line-height: 48px;
 }
