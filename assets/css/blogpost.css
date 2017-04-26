@@ -63,16 +63,16 @@ li a:hover {
 
 #pullquote {
     padding-top: 210px;
-    height: 450px;
-    margin-right: 150px;
-    margin-left: 150px;
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 5%;
 }
 
 #bobaguys {
     padding-top: 210px;
-    width: auto;
-    height: 450px;
-    margin-left: 150px;
+    width: 24%;
+    height: auto;
+    margin-left: 10%;
 }
 
 #blogtext {

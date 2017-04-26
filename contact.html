@@ -4,6 +4,15 @@
 	<title>Xin Yi Chen || Contact Me</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Meddon|Open+Sans:400,600,800" rel="stylesheet">
+	<script src="assets/js/js.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		    $(".submit").click(function(){
+		        alert("Thank you for the message! I usually respond within 48 hours.");
+		    });
+		});
+	</script>
 </head>
 <body>
 	<nav>
@@ -31,7 +40,7 @@
 	    <label for="message">Your Message</label>
     	<textarea id="message" name="message" placeholder="Please Type Your Message" style="height:300px"></textarea>
 
-    	<input type="submit" value="Submit">
+    	<input class="submit" type="submit" value="Submit">
 		</div>
 </body>
 </html>
