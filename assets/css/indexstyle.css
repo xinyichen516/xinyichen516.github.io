@@ -75,6 +75,8 @@ nav {
 	width: 50%;
 	margin-left: 50%;
 	float: right;
+	margin-top: 50px;
+	margin-bottom: 0;
 	position: fixed;
 	height: 100%;
 }
