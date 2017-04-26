@@ -5,6 +5,21 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/indexstyle.css">
 	<script src="assets/js/js.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Meddon|Open+Sans:400,600,800" rel="stylesheet">
+	<script src="assets/js/typed.js"></script>
+	<script>
+	document.addEventListener("DOMContentLoaded", function(){
+		Typed.new(".element0", {
+            strings: [">>> echo Hello, how are you?", ">>> echo I'm doing well, thanks!", ">>> echo Feel free to peruse!", ">>> echo Xin Yi's blog is pretty cool.", ">>> echo So is her resume.", ">>> echo Have a great day!"],
+            typeSpeed: 0, // typing speed!
+            backDelay: 2000, // pause before backspacing
+            loop: true, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+            showCursor: false,
+            callback: function(){ } // call function after typing is done
+        });
+	});
+	</script> 
+
 </head>
 <body>
 	<nav>
@@ -20,9 +35,11 @@
 		<div class="section-content">
 		<div id="hometextleft">Hello</div>
 		<div id="worldtext">World</div>
-		<div><a class="homelinks" href="aboutme.html">>>> cd AboutMe</a></div>
-		<div><a class="homelinks" href="resume.html">>>> cd Resume</a></div>
-		<div><a class="homelinks" href="contact.html">>>> cd ContactMe<span class="blink">_</span></a></div>
+		<a class="homelinks" href="aboutme.html"> xinyichen ~$ >>> cd AboutMe</a></div>
+		<div><a class="homelinks" href="resume.html"> xinyichen ~$ >>> cd Resume</a></div>
+		<div><a class="homelinks" href="contact.html"> xinyichen ~$ >>> cd ContactMe</a></div>
+		<span class="homelinks">xinyichen ~$</span>
+		<span class='element0'></span> <span class="blink">_</span></a>
 		</div>
 	</div>
 	<div id="content-right">

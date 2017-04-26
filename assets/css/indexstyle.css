@@ -96,13 +96,16 @@ nav {
 	color: white;
 	font-family: 'Droid Sans Mono', monospace;
 	font-size: 24px;
-	margin-left: 39%;
+	margin-left: 13%;
 	text-align: left;
 }
 
 .blink{
 	animation: blinker 1s linear infinite;
 	font-weight: bold;
+	color: white;
+	font-family: 'Droid Sans Mono', monospace;
+	font-size: 24px;
 }
 
 #hometextleft{
@@ -138,6 +141,37 @@ nav {
 	width:100%; 
 	height:100%; 
 	position:absolute;  
+}
+
+.nodisplay {
+	display: none;
+}
+
+.element0 {
+	text-decoration: none;
+	color: white;
+	font-family: 'Droid Sans Mono', monospace;
+	font-size: 24px;
+	margin-left: 10px;
+	text-align: left;
+}
+
+.element1 {
+	text-decoration: none;
+	color: white;
+	font-family: 'Droid Sans Mono', monospace;
+	font-size: 24px;
+	margin-left: 19%;
+	text-align: left;
+}
+
+.element2 {
+	text-decoration: none;
+	color: white;
+	font-family: 'Droid Sans Mono', monospace;
+	font-size: 24px;
+	margin-left: 19%;
+	text-align: left;
 }
 
 #worldtext{
