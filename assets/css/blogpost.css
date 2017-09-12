@@ -75,6 +75,12 @@ li a:hover {
     margin-left: 10%;
 }
 
+#quotesection {
+    width: 100%
+    margin-left: 0;
+    margin-right: 0;
+}
+
 #blogtext {
     margin-left: 150px;
     margin-right: 150px;
